@@ -1,0 +1,20 @@
+Questão 01:
+Verificar Versão do .NET SDK Instalada:
+    dotnet --version
+
+Listar Todas as Versões do .NET SDK Instaladas:
+    dotnet --list-sdks
+
+Listar Todas as Versões do .NET Runtime Instaladas:
+    dotnet --list-runtimes
+
+Remover uma Versão Específica do .NET SDK:
+    sudo apt-get remove --purge dotnet-sdk-{version}
+
+Atualizar o .NET SDK:
+    No caso de sistemas baseados em Debian/Ubuntu, você pode usar:
+        sudo apt-get update
+        sudo apt-get upgrade -y
+    Pode tambem usar o seguinte comando para atualizar o .NET SDK específico:
+        sudo apt-get install -y --only-upgrade dotnet-sdk-{version}
+
