@@ -1,0 +1,42 @@
+
+// sbyte:
+// Faixa de valores: -128 a 127.
+// Exemplo de uso:
+sbyte mySByte = 42;
+
+
+// byte:
+// Faixa de valores: 0 a 255.
+// Exemplo de uso:
+byte myByte = 200;
+
+// short:
+// Faixa de valores: -32,768 a 32,767.
+// Exemplo de uso:
+short myShort = 1000;
+
+// ushort:
+// Faixa de valores: 0 a 65,535.
+// Exemplo de uso:
+ushort myUShort = 5000;
+
+
+// int:
+// Faixa de valores: -2.147.483.648 a 2.147.483.647.
+// Exemplo de uso:
+int myInt = 1000000;
+
+// uint:
+// Faixa de valores: 0 a 4.294.967.295.
+// Exemplo de uso:
+uint myUInt = 3000000000;
+
+// long:
+// Faixa de valores: -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807.
+// Exemplo de uso:
+long myLong = 123456789012345;
+
+// ulong:
+// Faixa de valores: 0 a 18.446.744.073.709.551.615.
+// Exemplo de uso:
+ulong myULong = 18446744073709551615;
